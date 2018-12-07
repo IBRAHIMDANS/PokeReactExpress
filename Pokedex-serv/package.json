@@ -1,0 +1,19 @@
+{
+  "name": "Pokedex-serv",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "express-generator": "^4.16.0"
+  },
+  "scripts": {
+    "nodemon": "./node_modules/nodemon/bin/nodemon.js app.js",
+    "express-generator": "./node_modules/express-generator/bin/express-cli.js"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.7"
+  }
+}
