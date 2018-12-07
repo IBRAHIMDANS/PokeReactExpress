@@ -43,15 +43,14 @@ class Pokemon extends Component {
             <p className="col-6" > <b>Nom (fr):  </b>{pokemon.nom} </p>
             <p className="col-6" > <b>Nom (en): </b>{pokemon.nomen} </p>
             <p className="col-6" > <b>Nom (ja): </b>{pokemon.nomja} </p>
-            <p className="col-6" > <b>Nom (tm): </b>{pokemon.nomtm} </p>
-            <p className="col-6" > <b>Nom (de): </b>{pokemon.nomde} </p>
 
-            <p className="col-6" > <b>Espece: </b>{pokemon.espece} </p>
+            <p className="col-6" > <b>Famille: </b>{pokemon.espece} </p>
             <p className="col-6" > <b>Taille: </b>{pokemon.taille} m </p>
             <p className="col-6" > <b>Poids: </b>{pokemon.poids} Kg </p>
-            <p className="col-6" > <b>Expval: </b>{pokemon.expval} </p>
+            <p className="col-6" > <b>Exp: </b>{pokemon.expval} </p>
             <p className="col-6" > <b>ExpMax: </b>{pokemon.expmax} </p>
-            <p className="col-6" > <b>captureval: </b>{pokemon.captureval} </p>
+            <p className="col-6" > <b>Sexe: </b>{ (pokemon.fmratio<0) ? "Femme"  : "Homme"} </p>
+            <p className="col-6" > <b>Taux de Capture: </b>{pokemon.captureval} </p>
             <p className="col-6" > <b> Type1 : </b>{pokemon.type1} </p>
             {  (! pokemon.type2)?  <p> </p> : <p className="col-6" > <b>Type2 :</b> {pokemon.type2} </p> }
             <p className="col-6" > <b>Couleur : </b> {pokemon.couleur} </p>
